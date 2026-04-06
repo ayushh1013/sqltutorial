@@ -1,0 +1,13 @@
+use startersql;
+create table user(
+id int auto_increment primary key,
+ name varchar(100) Not NULL,
+ email varchar(100) unique not null,
+ gender ENUM('Male','Female','other'),
+ date_of_birth Date,
+ creted_at Timestamp Default Current_timestamp
+ );
+Select  * from  ayush;
+rename table  user to ayush;
+alter table ayush add column is_active boolean default true;
+select * from ayush;
