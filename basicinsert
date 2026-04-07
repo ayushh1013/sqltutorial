@@ -1,0 +1,4 @@
+use startsql;
+select * from ayush;
+insert into ayush values
+('2003-07-13',1, 'ayush@9874.com', 'ayush','male',default);
